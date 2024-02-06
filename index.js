@@ -32,4 +32,4 @@ console.log(everyLoop([1, 3, 5], n => n < 10));
 // → true
 
 console.log(everySome([2, 4, 16], n => n < 10));
-// → falsei
+// → false
