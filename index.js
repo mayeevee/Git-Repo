@@ -15,3 +15,21 @@ const quotations = [
    
    // Call the function to print a random quotation
    printRandomQuotation();
+
+   import { flattening, loop, everyLoop, everySome } from './exercises.js';
+
+// Example
+let arrays = [[1, 2, 3], [4, 5], [6]];
+console.log(flattening(arrays));
+// → [1, 2, 3, 4, 5, 6]
+
+loop(3, n => n > 0, n => n - 1, console.log);
+// → 3
+// → 2
+// → 1
+
+console.log(everyLoop([1, 3, 5], n => n < 10));
+// → true
+
+console.log(everySome([2, 4, 16], n => n < 10));
+// → false
