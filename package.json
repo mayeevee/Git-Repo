@@ -1,0 +1,12 @@
+{
+  "name": "git-repo",
+  "version": "1.0.0",
+  "description": "DIG4639 - Selina Tran",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
